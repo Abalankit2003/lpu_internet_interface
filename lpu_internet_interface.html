@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24Online Client</title>
+    <style>
+        .whole-body{
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items:center;
+            padding: 0 26%;
+        }
+        #details{
+            width: 39%;
+        }
+        input[type="button"]{
+            margin:2% 40%;
+        }
+        input[name="save"]{
+            margin-left: 30%;
+        }
+        input[type="password"]{
+            margin: 2% 3.5%;
+        }
+    </style>
+</head>
+<body>
+    <div class="whole-body">
+    <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-q1ryotOBfzpTlqM2JLpiCYilHaN_uXoQzzj1Goer&s" alt="Lpu logo"></p>
+
+    <p><a href="#">My Account</a></p>
+    <p>I understand, agree with, confirm and will abide by the University Internet usage policy interalia that this LPU
+    internet access/ connectivity is provided/ allowed as a privilege to me for academic support only and any prohibited or
+    unauthorized use is not permitted to me. I further understand and undertake that any unauthorized downloading, access,
+    viewing or usage etc of any website, software, material, information, data, etc. (pertaining to the university or trust
+    and their associates/ constituents or external agency or third party) through internet connectivity/ access/ usage so
+    provided by the university, shall be at my sole risk and responsibility and the university shall not be responsible for
+    the same and I hereby indemnify and shall keep indemnified the LPU or Trust and their associates/ constituents at all
+    times from consequences arising from aforesaid any unauthorized/ prohibited act done by me.</p>
+
+    <p><input type="checkbox" name="" id=""> <strong> I Agree with Terms and Conditions </strong>(You must agree with terms and conditions before login.)</p>
+    <p id="details">
+        <label for="user"> <strong>User Name</strong></label>
+        <input type="text" name="user" id=""><br>
+        <label for="pass"><strong>Password</strong></label>
+        <input type="password" name="pass" id=""><br>
+        <input type="checkbox" name="save" id=""> 
+        <label for="save">Save Password</label><br> 
+        <input type="button" value="Login">
+    </p>
+    <p><a href="#"><strong>Internet Access Policy</strong></a></p>
+    </div>
+</body>
+</html>
